@@ -63,11 +63,11 @@
         "font-family": {
           "primary": {
             "$type": "fontFamilies",
-            "$value": "Source Serif Pro, Tahoma, Verdana, sans-serif"
+            "$value": "Ubuntu, Arial, sans-serif"
           },
           "secondary": {
             "$type": "fontFamilies",
-            "$value": "Fira Sans, Tahoma, Verdana, sans-serif"
+            "$value": "Arial, sans-serif"
           },
           "code": {
             "$type": "fontFamilies",
@@ -437,7 +437,7 @@
           },
           "700": {
             "$type": "color",
-            "$value": "#006053"
+            "$value": "#00A060"
           },
           "800": {
             "$type": "color",
@@ -483,7 +483,7 @@
           },
           "700": {
             "$type": "color",
-            "$value": "#00588F"
+            "$value": "#0054a3"
           },
           "800": {
             "$type": "color",
