@@ -1,6 +1,6 @@
 {
   "brand": {
-    "voorbeeld": {
+    "woerden": {
       "typography": {
         "font-size": {
           "sm": {
@@ -884,7 +884,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{woerden.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         },
@@ -895,7 +895,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{woerden.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         },
@@ -906,7 +906,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{woerden.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         }
