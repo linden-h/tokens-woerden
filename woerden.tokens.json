@@ -523,43 +523,6 @@
           }
         }
       },
-      "box-shadow": {
-        "sm": {
-          "$type": "boxShadow",
-          "$value": {
-            "x": "0",
-            "y": "2",
-            "blur": "6",
-            "spread": "0",
-            "color": "{woerden.color.dark.alpha.100}",
-            "type": "dropShadow"
-          }
-        },
-        "md": {
-          "$type": "boxShadow",
-          "$value": {
-            "x": "0",
-            "y": "8",
-            "blur": "16",
-            "spread": "0",
-            "color": "{woerden.color.dark.alpha.100}",
-            "type": "dropShadow"
-          }
-        },
-        "lg": {
-          "$type": "boxShadow",
-          "$value": {
-            "x": "0",
-            "y": "16",
-            "blur": "48",
-            "spread": "0",
-            "color": "{woerden.color.dark.alpha.100}",
-            "type": "dropShadow"
-          }
-        }
-      }
-    },
-    "voorbeeld": {
       "space": {
         "inline": {
           "flea": {
@@ -912,6 +875,41 @@
             "$value": "48px"
           }
         }
+      },
+      "box-shadow": {
+        "sm": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0",
+            "y": "2",
+            "blur": "6",
+            "spread": "0",
+            "color": "{woerden.color.dark.alpha.100}",
+            "type": "dropShadow"
+          }
+        },
+        "md": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0",
+            "color": "{woerden.color.dark.alpha.100}",
+            "type": "dropShadow"
+          }
+        },
+        "lg": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0",
+            "y": "16",
+            "blur": "48",
+            "spread": "0",
+            "color": "{woerden.color.dark.alpha.100}",
+            "type": "dropShadow"
+          }
+        }
       }
     }
   },
@@ -972,7 +970,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -1007,7 +1005,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           }
         },
         "invalid": {
@@ -1025,7 +1023,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           }
         },
         "read-only": {
@@ -1070,19 +1068,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{woerden.space.inline.snail}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{woerden.space.inline.snail}"
         }
       },
       "focus": {
@@ -1114,13 +1112,13 @@
         },
         "outline-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{woerden.border-width.md}"
         }
       },
       "pointer-target": {
         "min-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.md}"
+          "$value": "{woerden.size.md}"
         }
       },
       "feedback": {
@@ -1150,7 +1148,7 @@
       "container": {
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
@@ -1160,7 +1158,7 @@
       "line": {
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
@@ -1171,7 +1169,7 @@
         "active": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "accent-color": {
             "$type": "color",
@@ -1193,7 +1191,7 @@
         "hover": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "accent-color": {
             "$type": "color",
@@ -1269,13 +1267,13 @@
         "functional": {
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.icon.md}"
+            "$value": "{woerden.size.icon.md}"
           }
         },
         "toptask": {
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.icon.4xl}"
+            "$value": "{woerden.size.icon.4xl}"
           }
         }
       },
@@ -1331,23 +1329,23 @@
           },
           "besties": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           },
           "vrienden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.rat}"
+            "$value": "{woerden.space.row.rat}"
           },
           "bekenden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.cat}"
+            "$value": "{woerden.space.row.cat}"
           },
           "onbekenden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.pig}"
+            "$value": "{woerden.space.row.pig}"
           },
           "onbemind": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.horse}"
+            "$value": "{woerden.space.row.horse}"
           }
         }
       },
@@ -1369,29 +1367,29 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         },
         "button": {
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{woerden.space.text.mouse}"
           },
           "icon": {
             "size": {
@@ -1401,19 +1399,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "background-color": {
             "$type": "color",
@@ -1471,7 +1469,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "border-radius": {
             "$type": "dimension",
@@ -1485,7 +1483,7 @@
         "section": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "border-color": {
             "$type": "color",
@@ -1554,7 +1552,7 @@
         },
         "gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{woerden.space.row.snail}"
         },
         "line-height": {
           "$type": "lineHeights",
@@ -1562,32 +1560,32 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "lg": {
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.rat}"
+            "$value": "{woerden.space.column.rat}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           }
         },
         "date": {
@@ -1601,7 +1599,7 @@
           },
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           },
           "warning": {
             "color": {
@@ -1610,7 +1608,7 @@
             },
             "gap": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.row.snail}"
+              "$value": "{woerden.space.row.snail}"
             },
             "font-weight": {
               "$type": "fontWeights",
@@ -1629,12 +1627,12 @@
         "details": {
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           },
           "lg": {
             "gap": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.column.rat}"
+              "$value": "{woerden.space.column.rat}"
             }
           }
         },
@@ -1653,19 +1651,19 @@
         "single": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "hover": {
             "background-color": {
@@ -1676,12 +1674,12 @@
           "details": {
             "gap": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.row.snail}"
+              "$value": "{woerden.space.row.snail}"
             },
             "lg": {
               "gap": {
                 "$type": "dimension",
-                "$value": "{voorbeeld.space.column.snail}"
+                "$value": "{woerden.space.column.snail}"
               }
             }
           }
@@ -1710,7 +1708,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{woerden.space.column.snail}"
         },
         "padding-block-end": {
           "$type": "dimension",
@@ -1722,7 +1720,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{woerden.space.row.snail}"
         }
       }
     }
@@ -1744,7 +1742,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{woerden.border-width.md}"
         },
         "color": {
           "$type": "color",
@@ -1752,34 +1750,34 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{woerden.space.column.snail}"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.rat}"
+          "$value": "{woerden.space.block.rat}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "content": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.rat}"
+            "$value": "{woerden.space.row.rat}"
           }
         },
         "message": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           }
         },
         "info": {
@@ -1841,7 +1839,7 @@
         "icon": {
           "inset-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.flea}"
+            "$value": "{woerden.space.block.flea}"
           },
           "size": {
             "$type": "dimension",
@@ -1910,7 +1908,7 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{woerden.border-radius.round}"
         },
         "size": {
           "$type": "dimension",
@@ -1954,7 +1952,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "hover": {
           "background-color": {
@@ -2044,11 +2042,11 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
@@ -2060,7 +2058,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{woerden.space.row.snail}"
         },
         "attribution": {
           "color": {
@@ -2107,19 +2105,19 @@
         "item": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           }
         },
         "link": {
@@ -2186,7 +2184,7 @@
           "icon": {
             "size": {
               "$type": "dimension",
-              "$value": "{voorbeeld.size.2xs}"
+              "$value": "{woerden.size.2xs}"
             }
           }
         }
@@ -2198,7 +2196,7 @@
       "breadcrumb-nav": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{woerden.space.column.snail}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -2220,7 +2218,7 @@
           "icon": {
             "column-gap": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{woerden.space.text.beetle}"
             },
             "size": {
               "$type": "dimension",
@@ -2229,11 +2227,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -2299,7 +2297,7 @@
           },
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.2xs}"
+            "$value": "{woerden.size.2xs}"
           }
         }
       }
@@ -2322,11 +2320,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.md}"
+          "$value": "{woerden.border-radius.md}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "icon": {
           "size": {
@@ -2352,19 +2350,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "disabled": {
           "background-color": {
@@ -2432,7 +2430,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{woerden.space.text.beetle}"
         },
         "primary-action": {
           "hover": {
@@ -2716,15 +2714,15 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.mouse}"
+          "$value": "{woerden.space.row.mouse}"
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.rat}"
+          "$value": "{woerden.space.block.rat}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.rabbit}"
+          "$value": "{woerden.space.inline.rabbit}"
         },
         "icon": {
           "size": {
@@ -2844,7 +2842,7 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "color": {
           "$type": "color",
@@ -2874,7 +2872,7 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "icon": {
           "size": {
@@ -3136,15 +3134,15 @@
       "checkbox-group": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{woerden.space.row.rat}"
         }
       }
     }
@@ -3206,7 +3204,7 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "color": {
           "$type": "color",
@@ -3226,11 +3224,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         }
       }
     }
@@ -3260,19 +3258,19 @@
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{woerden.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         }
       }
     }
@@ -3294,15 +3292,15 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{woerden.size.sm}"
         },
         "inline-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{woerden.size.sm}"
         }
       }
     }
@@ -3355,7 +3353,7 @@
         "step": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.cat}"
+            "$value": "{woerden.space.block.cat}"
           },
           "distance": {
             "$type": "dimension",
@@ -3372,22 +3370,22 @@
           "mobile": {
             "margin-inline-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.inline.dog}"
+              "$value": "{woerden.space.inline.dog}"
             }
           },
           "file": {
             "margin-block-end": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.rabbit}"
+              "$value": "{woerden.space.block.rabbit}"
             },
             "margin-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.rabbit}"
+              "$value": "{woerden.space.block.rabbit}"
             },
             "mobile": {
               "margin-block-end": {
                 "$type": "dimension",
-                "$value": "{voorbeeld.space.block.cat}"
+                "$value": "{woerden.space.block.cat}"
               }
             }
           },
@@ -3402,7 +3400,7 @@
             },
             "margin-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.mouse}"
+              "$value": "{woerden.space.block.mouse}"
             }
           }
         },
@@ -3430,7 +3428,7 @@
           "toggle": {
             "gap": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{woerden.space.text.beetle}"
             },
             "active": {
               "color": {
@@ -3479,7 +3477,7 @@
         "step-meta": {
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{woerden.space.text.mouse}"
           },
           "marker": {
             "color": {
@@ -3488,7 +3486,7 @@
             },
             "size": {
               "$type": "dimension",
-              "$value": "{voorbeeld.size.4xs}"
+              "$value": "{woerden.size.4xs}"
             }
           }
         }
@@ -3522,11 +3520,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -3550,11 +3548,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{woerden.size.sm}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -3562,7 +3560,7 @@
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{woerden.space.inline.ant}"
         }
       }
     }
@@ -3580,11 +3578,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -3608,11 +3606,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{woerden.size.sm}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -3620,7 +3618,7 @@
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{woerden.space.inline.ant}"
         }
       }
     }
@@ -3642,7 +3640,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -3650,11 +3648,11 @@
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "max-block-size": {
           "$type": "dimension",
@@ -3674,11 +3672,11 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.rabbit}"
+          "$value": "{woerden.space.block.rabbit}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.rabbit}"
+          "$value": "{woerden.space.block.rabbit}"
         },
         "backdrop": {
           "min-size": {
@@ -3706,7 +3704,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "box-shadow": {
           "$type": "boxShadow",
@@ -3727,27 +3725,27 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.snail}"
+            "$value": "{woerden.space.column.snail}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "label": {
             "color": {
@@ -3775,15 +3773,15 @@
         "content": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         },
         "footer": {
@@ -3797,23 +3795,23 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         }
       }
@@ -3842,7 +3840,7 @@
       "figure": {
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{woerden.space.row.snail}"
         }
       }
     }
@@ -3852,7 +3850,7 @@
       "file": {
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
@@ -3865,11 +3863,11 @@
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         },
         "link": {
@@ -3885,7 +3883,7 @@
           },
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.text.beetle}"
+            "$value": "{woerden.space.text.beetle}"
           },
           "icon": {
             "width": {
@@ -3901,23 +3899,23 @@
         "right": {
           "gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           }
         }
       }
@@ -3933,11 +3931,11 @@
           },
           "border-inline-start-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         }
       }
@@ -3948,7 +3946,7 @@
       "form-field-checkbox-option": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{woerden.space.column.snail}"
         }
       }
     }
@@ -4030,7 +4028,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.text.mouse}"
+          "$value": "{woerden.space.text.mouse}"
         }
       }
     }
@@ -4094,7 +4092,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{woerden.space.text.beetle}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -4166,7 +4164,7 @@
       "form-field-radio-option": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{woerden.space.column.snail}"
         }
       }
     }
@@ -4186,11 +4184,11 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "dimension",
@@ -4203,11 +4201,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -4226,15 +4224,15 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.inline.mouse}"
+              "$value": "{woerden.space.inline.mouse}"
             },
             "padding-inline-start": {
               "$type": "dimension",
@@ -4243,11 +4241,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -4261,7 +4259,7 @@
         "item": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "border-color": {
             "$type": "color",
@@ -4284,11 +4282,11 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{woerden.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "dimension",
@@ -4296,20 +4294,20 @@
             },
             "padding-inline-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.inline.mouse}"
+              "$value": "{woerden.space.inline.mouse}"
             }
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
@@ -4702,7 +4700,7 @@
       "icon": {
         "size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         }
       }
     }
@@ -4712,19 +4710,19 @@
       "icon-only-button": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{woerden.space.inline.snail}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{woerden.space.inline.snail}"
         }
       }
     }
@@ -4826,7 +4824,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{woerden.space.text.beetle}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -4904,7 +4902,7 @@
       "link-list": {
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{woerden.space.row.snail}"
         },
         "icon": {
           "inset-block-start": {
@@ -4919,7 +4917,7 @@
         "link": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -4976,11 +4974,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.md}"
+          "$value": "{woerden.border-radius.md}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "hover": {
           "background-color": {
@@ -5004,19 +5002,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{woerden.space.inline.beetle}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{woerden.space.inline.beetle}"
         },
         "min-block-size": {
           "$type": "dimension",
@@ -5032,7 +5030,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{woerden.space.inline.snail}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -5122,7 +5120,7 @@
       "modal-dialog": {
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.lg}"
+          "$value": "{woerden.border-radius.lg}"
         },
         "box-shadow": {
           "$type": "boxShadow",
@@ -5131,19 +5129,19 @@
         "header": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "background-color": {
             "$type": "color",
@@ -5177,11 +5175,11 @@
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.snail}"
+            "$value": "{woerden.space.column.snail}"
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         },
         "border-color": {
@@ -5199,19 +5197,19 @@
         "footer": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{woerden.space.block.mouse}"
           },
           "background-color": {
             "$type": "color",
@@ -5223,26 +5221,26 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         },
         "content": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         }
       }
     }
@@ -5267,19 +5265,19 @@
         "link": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{woerden.space.block.beetle}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         }
       }
@@ -5298,11 +5296,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{woerden.border-radius.round}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -5322,19 +5320,19 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.ant}"
+          "$value": "{woerden.space.block.ant}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{woerden.space.inline.ant}"
         }
       }
     }
@@ -5352,11 +5350,11 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{woerden.border-radius.round}"
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -5376,19 +5374,19 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.ant}"
+          "$value": "{woerden.space.block.ant}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{woerden.space.inline.ant}"
         }
       }
     }
@@ -5406,20 +5404,20 @@
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.rabbit}"
+          "$value": "{woerden.space.inline.rabbit}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           }
         }
       }
@@ -5439,7 +5437,7 @@
         "page-link": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -5465,19 +5463,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "hover": {
             "background-color": {
@@ -5513,23 +5511,23 @@
         "relative-link": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -5593,12 +5591,12 @@
         "relative-link": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "icon": {
             "margin-inline": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{woerden.space.text.beetle}"
             },
             "size": {
               "$type": "dimension",
@@ -5607,11 +5605,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-start": {
             "$type": "dimension",
@@ -5721,7 +5719,7 @@
         "page-link": {
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -5755,19 +5753,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.snail}"
+            "$value": "{woerden.space.inline.snail}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.snail}"
+            "$value": "{woerden.space.inline.snail}"
           },
           "focus-visible": {
             "text-decoration": {
@@ -5859,19 +5857,19 @@
         "ellipses": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{woerden.space.inline.ant}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{woerden.space.inline.ant}"
           },
           "color": {
             "$type": "color",
@@ -6029,20 +6027,20 @@
         "step-marker": {
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{woerden.size.sm}"
           },
           "nested": {
             "size": {
               "$type": "dimension",
-              "$value": "{voorbeeld.size.2xs}"
+              "$value": "{woerden.size.2xs}"
             },
             "inset-block-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.block.ant}"
+              "$value": "{woerden.space.block.ant}"
             },
             "padding-inline-start": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.inline.beetle}"
+              "$value": "{woerden.space.inline.beetle}"
             }
           },
           "checked": {
@@ -6117,7 +6115,7 @@
           },
           "border-radius": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{woerden.border-radius.round}"
           },
           "font-family": {
             "$type": "fontFamilies",
@@ -6137,7 +6135,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "icon-size": {
             "$type": "dimension",
@@ -6147,7 +6145,7 @@
         "connector": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "checked": {
             "border-color": {
@@ -6175,17 +6173,17 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           }
         },
         "step-heading": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rat}"
+            "$value": "{woerden.space.block.rat}"
           },
           "checked": {
             "color": {
@@ -6242,7 +6240,7 @@
             },
             "margin-inline": {
               "$type": "dimension",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{woerden.space.text.beetle}"
             },
             "checked": {
               "color": {
@@ -6563,37 +6561,37 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         },
         "step-header": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.rat}"
+            "$value": "{woerden.space.column.rat}"
           }
         },
         "step-meta": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.pig}"
+            "$value": "{woerden.space.inline.pig}"
           }
         },
         "sub-step": {
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           }
         },
         "step-body": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{woerden.space.row.snail}"
           }
         },
         "sub-step-header": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.cat}"
+            "$value": "{woerden.space.column.cat}"
           }
         }
       }
@@ -6631,7 +6629,7 @@
           },
           "stroke-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "checked": {
             "color": {
@@ -6709,7 +6707,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "color": {
             "$type": "color",
@@ -6734,7 +6732,7 @@
             },
             "border-width": {
               "$type": "dimension",
-              "$value": "{voorbeeld.border-width.md}"
+              "$value": "{woerden.border-width.md}"
             },
             "color": {
               "$type": "color",
@@ -6752,7 +6750,7 @@
             },
             "border-width": {
               "$type": "dimension",
-              "$value": "{voorbeeld.border-width.md}"
+              "$value": "{woerden.border-width.md}"
             },
             "color": {
               "$type": "color",
@@ -6856,12 +6854,12 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{woerden.size.xs}"
         },
         "icon": {
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.3xs}"
+            "$value": "{woerden.size.3xs}"
           }
         },
         "active": {
@@ -7050,15 +7048,15 @@
       "radio-group": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{woerden.space.block.beetle}"
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{woerden.space.row.rat}"
         }
       }
     }
@@ -7202,7 +7200,7 @@
         },
         "block-size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.4xs}"
+          "$value": "{woerden.size.4xs}"
         }
       }
     }
@@ -7216,7 +7214,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.cat}"
+          "$value": "{woerden.space.row.cat}"
         },
         "item": {
           "font-family": {
@@ -7243,15 +7241,15 @@
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{woerden.space.text.mouse}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "current": {
             "font-weight": {
@@ -7336,11 +7334,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "min-block-size": {
           "$type": "dimension",
@@ -7382,19 +7380,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -7444,7 +7442,7 @@
         },
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{woerden.border-width.sm}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -7452,15 +7450,15 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{woerden.space.inline.ant}"
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.flea}"
+          "$value": "{woerden.space.block.flea}"
         },
         "informative": {
           "background-color": {
@@ -7538,7 +7536,7 @@
       "step-marker": {
         "border-width": {
           "$type": "dimension",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{woerden.border-width.md}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -7550,7 +7548,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "margin": {
           "$type": "dimension",
@@ -7558,7 +7556,7 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{woerden.size.sm}"
         },
         "icon": {
           "size": {
@@ -7689,7 +7687,7 @@
         "nested": {
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.2xs}"
+            "$value": "{woerden.size.2xs}"
           },
           "icon": {
             "size": {
@@ -7701,7 +7699,7 @@
         "connector": {
           "outline-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           },
           "checked": {
             "outline-color": {
@@ -7801,15 +7799,15 @@
           },
           "border-radius": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{woerden.border-radius.round}"
           },
           "padding-block": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{woerden.space.inline.ant}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{woerden.space.inline.ant}"
           },
           "inline-size": {
             "$type": "dimension",
@@ -7817,7 +7815,7 @@
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         },
         "icon": {
@@ -7873,11 +7871,11 @@
           },
           "min-inline-size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{woerden.size.sm}"
           },
           "min-block-size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{woerden.size.sm}"
           },
           "box-shadow": {
             "$type": "boxShadow",
@@ -7885,11 +7883,11 @@
           },
           "border-radius": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{woerden.border-radius.round}"
           },
           "border-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         }
       }
@@ -7933,25 +7931,25 @@
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{woerden.space.block.rabbit}"
           }
         },
         "cell": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{woerden.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{woerden.space.inline.mouse}"
           }
         },
         "footer": {
@@ -7975,7 +7973,7 @@
           },
           "border-block-end-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "color": {
             "$type": "color",
@@ -7995,7 +7993,7 @@
           },
           "border-block-end-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{woerden.border-width.sm}"
           }
         }
       }
@@ -8019,7 +8017,7 @@
           },
           "border-block-start-width": {
             "$type": "dimension",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{woerden.border-width.md}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -8054,20 +8052,20 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{woerden.space.row.rat}"
         },
         "item": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.column.mouse}"
+            "$value": "{woerden.space.column.mouse}"
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           }
         },
         "icon": {
@@ -8077,7 +8075,7 @@
           },
           "size": {
             "$type": "dimension",
-            "$value": "{voorbeeld.size.icon.sm}"
+            "$value": "{woerden.size.icon.sm}"
           }
         }
       }
@@ -8404,23 +8402,23 @@
       "toolbar-button": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{woerden.space.text.beetle}"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{woerden.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{woerden.space.inline.beetle}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{woerden.space.inline.beetle}"
         }
       }
     }
@@ -8438,20 +8436,20 @@
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{woerden.space.inline.mouse}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{woerden.space.inline.beetle}"
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{woerden.space.block.ant}"
           }
         },
         "marker": {
