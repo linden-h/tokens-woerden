@@ -43,7 +43,7 @@
           },
           "md": {
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "160%"
           },
           "lg": {
             "$type": "lineHeights",
@@ -87,23 +87,23 @@
         "purple": {
           "50": {
             "$type": "color",
-            "$value": "#FAF8FF"
+            "$value": "#EDEAF2"
           },
           "100": {
             "$type": "color",
-            "$value": "#F5F2FF"
+            "$value": "#E0DAE9"
           },
           "200": {
             "$type": "color",
-            "$value": "#EBE3FF"
+            "$value": "#C5BAD8"
           },
           "300": {
             "$type": "color",
-            "$value": "#DBCDFF"
+            "$value": "#AB9AC8"
           },
           "400": {
             "$type": "color",
-            "$value": "#AF91FF"
+            "$value": "#907AB7"
           },
           "500": {
             "$type": "color",
@@ -111,91 +111,91 @@
           },
           "600": {
             "$type": "color",
-            "$value": "#7744FF"
+            "$value": "#5E4885"
           },
           "700": {
             "$type": "color",
-            "$value": "#5315F6"
+            "$value": "#473664"
           },
           "800": {
             "$type": "color",
-            "$value": "#3F10BC"
+            "$value": "#2F2442"
           },
           "900": {
             "$type": "color",
-            "$value": "#290B7A"
+            "$value": "#181221"
           },
           "950": {
             "$type": "color",
-            "$value": "#1A074C"
+            "$value": "#0C0911"
           }
         },
         "gray": {
           "50": {
             "$type": "color",
-            "$value": "#F9F9FA"
+            "$value": "#f0f2f5"
           },
           "100": {
             "$type": "color",
-            "$value": "#F2F4F6"
+            "$value": "#e0e6eb"
           },
           "200": {
             "$type": "color",
-            "$value": "#E4E7EC"
+            "$value": "#c2ccd6"
           },
           "300": {
             "$type": "color",
-            "$value": "#CFD5DD"
+            "$value": "#A3B3C2"
           },
           "400": {
             "$type": "color",
-            "$value": "#98A4B6"
+            "$value": "#859aad"
           },
           "500": {
             "$type": "color",
-            "$value": "#7A8AA0"
+            "$value": "#668099"
           },
           "600": {
             "$type": "color",
-            "$value": "#5B6E8A"
+            "$value": "#52677a"
           },
           "700": {
             "$type": "color",
-            "$value": "#3F5676"
+            "$value": "#3D4D5C"
           },
           "800": {
             "$type": "color",
-            "$value": "#274065"
+            "$value": "#29333d"
           },
           "900": {
             "$type": "color",
-            "$value": "#0A2750"
+            "$value": "#141a1f"
           },
           "950": {
             "$type": "color",
-            "$value": "#001737"
+            "$value": "#141c24"
           }
         },
         "light-blue": {
           "50": {
             "$type": "color",
-            "$value": "#FDF8FA"
+            "$value": "#E0F1FA"
           },
           "100": {
             "$type": "color",
-            "$value": "#FCF1F6"
+            "$value": "#C6E9FA"
           },
           "200": {
             "$type": "color",
-            "$value": "#F8E1EB"
+            "$value": "#96DBF6"
           },
           "300": {
             "$type": "color",
-            "$value": "#F2C9DC"
+            "$value": "#64CCF3"
           },
           "400": {
             "$type": "color",
-            "$value": "#E287B0"
+            "$value": "#32BCF1"
           },
           "500": {
             "$type": "color",
@@ -271,27 +271,27 @@
         "orange": {
           "50": {
             "$type": "color",
-            "$value": "#FFF8F3"
+            "$value": "#F9EBE6"
           },
           "100": {
             "$type": "color",
-            "$value": "#fdddca"
+            "$value": "#F8DDD3"
           },
           "200": {
             "$type": "color",
-            "$value": "#FFE1CB"
+            "$value": "#F7C1AC"
           },
           "300": {
             "$type": "color",
-            "$value": "#FFC9A3"
+            "$value": "#F5A484"
           },
           "400": {
             "$type": "color",
-            "$value": "#F26B36"
+            "$value": "#F4885D"
           },
           "500": {
             "$type": "color",
-            "$value": "#DD6525"
+            "$value": "#F26B36"
           },
           "600": {
             "$type": "color",
@@ -363,39 +363,39 @@
         "green": {
           "50": {
             "$type": "color",
-            "$value": "#F2FCF4"
+            "$value": "#CAEADD"
           },
           "100": {
             "$type": "color",
-            "$value": "#E4F9EA"
+            "$value": "#ccece0"
           },
           "200": {
             "$type": "color",
-            "$value": "#ccece0"
+            "$value": "#96D6BC"
           },
           "300": {
             "$type": "color",
-            "$value": "#94E6AB"
+            "$value": "#64C49E"
           },
           "400": {
             "$type": "color",
-            "$value": "#20BC4B"
+            "$value": "#32B27F"
           },
           "500": {
             "$type": "color",
-            "$value": "#1B9D3F"
+            "$value": "#00A060"
           },
           "600": {
             "$type": "color",
-            "$value": "#00A060"
+            "$value": "#008855"
           },
           "700": {
             "$type": "color",
-            "$value": "#008855"
+            "$value": "#006640"
           },
           "800": {
             "$type": "color",
-            "$value": "#0D4A1E"
+            "$value": "#006640"
           },
           "900": {
             "$type": "color",
@@ -409,7 +409,7 @@
         "light-green": {
           "50": {
             "$type": "color",
-            "$value": "#F2FBFA"
+            "$value": "#EDF4E6"
           },
           "100": {
             "$type": "color",
@@ -417,15 +417,15 @@
           },
           "200": {
             "$type": "color",
-            "$value": "#C6EFE9"
+            "$value": "#C7E3B0"
           },
           "300": {
             "$type": "color",
-            "$value": "#99E2D8"
+            "$value": "#ADD88C"
           },
           "400": {
             "$type": "color",
-            "$value": "#05B7A0"
+            "$value": "#94CC67"
           },
           "500": {
             "$type": "color",
@@ -455,31 +455,31 @@
         "blue": {
           "50": {
             "$type": "color",
-            "$value": "#F4FAFE"
+            "$value": "#f8fafc"
           },
           "100": {
             "$type": "color",
-            "$value": "#E9F5FD"
+            "$value": "#f0f4fa"
           },
           "200": {
             "$type": "color",
-            "$value": "#D0EBFB"
+            "$value": "#C8D9E9"
           },
           "300": {
             "$type": "color",
-            "$value": "#ABDBF8"
+            "$value": "#96B8D7"
           },
           "400": {
             "$type": "color",
-            "$value": "#3EACEF"
+            "$value": "#6496C6"
           },
           "500": {
             "$type": "color",
-            "$value": "#008DE4"
+            "$value": "#3275B4"
           },
           "600": {
             "$type": "color",
-            "$value": "#0071B7"
+            "$value": "#1965AC"
           },
           "700": {
             "$type": "color",
@@ -924,7 +924,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{woerden.color.gray.900}"
+          "$value": "{woerden.color.black}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -954,7 +954,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{woerden.color.gray.900}"
+          "$value": "{woerden.color.blue.700}"
         }
       },
       "form-control": {
@@ -1017,11 +1017,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.border-color}"
+            "$value": "{woerden.feedback.negative.border-color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.color}"
+            "$value": "{woerden.feedback.negative.color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -1140,7 +1140,7 @@
         }
       }
     },
-    "voorbeeld": {
+    "woerden": {
       "root": {
         "background-color": {
           "$type": "color",
@@ -1148,20 +1148,12 @@
         }
       },
       "container": {
-        "border-width": {
-          "$type": "dimension",
-          "$value": "{woerden.border-width.sm}"
-        },
         "border-color": {
           "$type": "color",
           "$value": "{woerden.color.gray.300}"
         }
       },
       "line": {
-        "border-width": {
-          "$type": "dimension",
-          "$value": "{woerden.border-width.sm}"
-        },
         "border-color": {
           "$type": "color",
           "$value": "{woerden.color.gray.300}"
@@ -1169,13 +1161,9 @@
       },
       "form-control": {
         "active": {
-          "border-width": {
-            "$type": "dimension",
-            "$value": "{woerden.border-width.md}"
-          },
           "accent-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           },
           "background-color": {
             "$type": "color",
@@ -1191,13 +1179,9 @@
           }
         },
         "hover": {
-          "border-width": {
-            "$type": "dimension",
-            "$value": "{woerden.border-width.md}"
-          },
           "accent-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "background-color": {
             "$type": "color",
@@ -1209,12 +1193,12 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{woerden.color.gray.950}"
+            "$value": "{woerden.color.green.800}"
           }
         },
         "accent-color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "disabled": {
           "accent-color": {
@@ -1240,11 +1224,9 @@
             "$value": "{woerden.color.gray.600}"
           }
         },
-        "strong": {
-          "font-weight": {
-            "$type": "fontWeights",
-            "$value": "{woerden.typography.font-weight.bold}"
-          }
+        "color": {
+          "$type": "color",
+          "$value": "{woerden.color.black}"
         }
       },
       "interaction": {
@@ -1261,21 +1243,7 @@
         "hover": {
           "color": {
             "$type": "color",
-            "$value": "{woerden.color.purple.800}"
-          }
-        }
-      },
-      "icon": {
-        "functional": {
-          "size": {
-            "$type": "dimension",
-            "$value": "{woerden.size.icon.md}"
-          }
-        },
-        "toptask": {
-          "size": {
-            "$type": "dimension",
-            "$value": "{woerden.size.icon.4xl}"
+            "$value": "{woerden.color.green.700}"
           }
         }
       },
@@ -1320,6 +1288,56 @@
           "color": {
             "$type": "color",
             "$value": "{woerden.color.green.600}"
+          }
+        }
+      }
+    },
+    "voorbeeld": {
+      "container": {
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{woerden.border-width.sm}"
+        }
+      },
+      "line": {
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{woerden.border-width.sm}"
+        }
+      },
+      "form-control": {
+        "active": {
+          "border-width": {
+            "$type": "dimension",
+            "$value": "{woerden.border-width.md}"
+          }
+        },
+        "hover": {
+          "border-width": {
+            "$type": "dimension",
+            "$value": "{woerden.border-width.md}"
+          }
+        }
+      },
+      "document": {
+        "strong": {
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{woerden.typography.font-weight.bold}"
+          }
+        }
+      },
+      "icon": {
+        "functional": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{woerden.size.icon.md}"
+          }
+        },
+        "toptask": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{woerden.size.icon.4xl}"
           }
         }
       },
@@ -1425,7 +1443,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "hover": {
             "background-color": {
@@ -1438,7 +1456,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "focus": {
@@ -1466,7 +1484,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "border-width": {
@@ -1489,7 +1507,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           }
         },
         "button": {
@@ -1526,7 +1544,7 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.line.border-color}"
+          "$value": "{woerden.line.border-color}"
         },
         "border-width": {
           "$type": "dimension",
@@ -1606,7 +1624,7 @@
           "warning": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.color}"
+              "$value": "{woerden.feedback.negative.color}"
             },
             "gap": {
               "$type": "dimension",
@@ -1642,7 +1660,7 @@
           "icon": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.color}"
+              "$value": "{woerden.interaction.color}"
             },
             "width": {
               "$type": "dimension",
@@ -1690,7 +1708,7 @@
           "icon": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.color}"
+              "$value": "{woerden.feedback.negative.color}"
             },
             "width": {
               "$type": "dimension",
@@ -1732,11 +1750,11 @@
       "alert": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.feedback.informative.background-color}"
+          "$value": "{woerden.feedback.informative.background-color}"
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.feedback.informative.border-color}"
+          "$value": "{woerden.feedback.informative.border-color}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -1785,11 +1803,11 @@
         "info": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.informative.background-color}"
+            "$value": "{woerden.feedback.informative.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.informative.border-color}"
+            "$value": "{woerden.feedback.informative.border-color}"
           },
           "color": {
             "$type": "color",
@@ -1799,11 +1817,11 @@
         "error": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.background-color}"
+            "$value": "{woerden.feedback.negative.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.border-color}"
+            "$value": "{woerden.feedback.negative.border-color}"
           },
           "color": {
             "$type": "color",
@@ -1813,11 +1831,11 @@
         "ok": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.positive.background-color}"
+            "$value": "{woerden.feedback.positive.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.positive.border-color}"
+            "$value": "{woerden.feedback.positive.border-color}"
           },
           "color": {
             "$type": "color",
@@ -1849,24 +1867,24 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.informative.color}"
+            "$value": "{woerden.feedback.informative.color}"
           },
           "info": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.informative.color}"
+              "$value": "{woerden.feedback.informative.color}"
             }
           },
           "error": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.color}"
+              "$value": "{woerden.feedback.negative.color}"
             }
           },
           "ok": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.color}"
+              "$value": "{woerden.feedback.positive.color}"
             }
           },
           "warning": {
@@ -1906,7 +1924,7 @@
       "avatar": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -1959,7 +1977,7 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "border-color": {
             "$type": "color",
@@ -2065,7 +2083,7 @@
         "attribution": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -2125,7 +2143,7 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -2138,7 +2156,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "current": {
@@ -2174,14 +2192,14 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           }
         },
         "separator": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "icon": {
             "size": {
@@ -2245,12 +2263,12 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "active": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             },
             "text-decoration": {
               "$type": "textDecoration",
@@ -2274,7 +2292,7 @@
           "hover": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             },
             "text-decoration": {
               "$type": "textDecoration",
@@ -2284,7 +2302,7 @@
           "current": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.subtle.color}"
+              "$value": "{woerden.document.subtle.color}"
             }
           },
           "text-decoration": {
@@ -2295,7 +2313,7 @@
         "separator": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "size": {
             "$type": "dimension",
@@ -2401,11 +2419,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           }
         },
         "active": {
@@ -2415,11 +2433,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           }
         },
         "min-block-size": {
@@ -2438,7 +2456,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             },
             "border-color": {
               "$type": "color",
@@ -2451,7 +2469,7 @@
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "border-color": {
             "$type": "color",
@@ -2496,7 +2514,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             },
             "border-color": {
               "$type": "color",
@@ -2524,11 +2542,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "background-color": {
@@ -2537,11 +2555,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "disabled": {
             "background-color": {
@@ -2582,11 +2600,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "font-size": {
@@ -2618,7 +2636,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "background-color": {
@@ -2631,7 +2649,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "disabled": {
             "background-color": {
@@ -2672,7 +2690,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "line-height": {
@@ -2885,11 +2903,11 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.active.background-color}"
+            "$value": "{woerden.form-control.active.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.active.border-color}"
+            "$value": "{woerden.form-control.active.border-color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -2909,11 +2927,11 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.background-color}"
+            "$value": "{woerden.form-control.hover.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.border-color}"
+            "$value": "{woerden.form-control.hover.border-color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -2951,7 +2969,7 @@
         "checked": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.accent-color}"
+            "$value": "{woerden.form-control.accent-color}"
           },
           "border-color": {
             "$type": "color",
@@ -2969,7 +2987,7 @@
         "indeterminate": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.accent-color}"
+            "$value": "{woerden.form-control.accent-color}"
           },
           "border-color": {
             "$type": "color",
@@ -3014,7 +3032,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.hover.accent-color}"
+              "$value": "{woerden.form-control.hover.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3032,7 +3050,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.active.accent-color}"
+              "$value": "{woerden.form-control.active.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3046,7 +3064,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.disabled.accent-color}"
+              "$value": "{woerden.form-control.disabled.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3066,7 +3084,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.active.accent-color}"
+              "$value": "{woerden.form-control.active.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3084,7 +3102,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.hover.accent-color}"
+              "$value": "{woerden.form-control.hover.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3116,7 +3134,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.disabled.accent-color}"
+              "$value": "{woerden.form-control.disabled.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -3435,7 +3453,7 @@
             "active": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.interaction.active.color}"
+                "$value": "{woerden.interaction.active.color}"
               }
             },
             "focus": {
@@ -3447,7 +3465,7 @@
             "hover": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.interaction.hover.color}"
+                "$value": "{woerden.interaction.hover.color}"
               }
             }
           }
@@ -3634,7 +3652,7 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.container.border-color}"
+          "$value": "{woerden.container.border-color}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -3698,7 +3716,7 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.container.border-color}"
+          "$value": "{woerden.container.border-color}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -3723,7 +3741,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -3793,7 +3811,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -3856,7 +3874,7 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.container.border-color}"
+          "$value": "{woerden.container.border-color}"
         },
         "left": {
           "background-color": {
@@ -3875,12 +3893,12 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "hover": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "gap": {
@@ -3929,7 +3947,7 @@
         "invalid": {
           "border-inline-start-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.border-color}"
+            "$value": "{woerden.feedback.negative.border-color}"
           },
           "border-inline-start-width": {
             "$type": "dimension",
@@ -3958,7 +3976,7 @@
       "form-field-description": {
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.subtle.color}"
+          "$value": "{woerden.document.subtle.color}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -3984,7 +4002,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.feedback.negative.color}"
+          "$value": "{woerden.feedback.negative.color}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -4265,7 +4283,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "color": {
             "$type": "color",
@@ -4474,7 +4492,7 @@
         },
         "inverse-color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.color}"
+          "$value": "{woerden.document.inverse.color}"
         },
         "level": {
           "1": {
@@ -4734,11 +4752,11 @@
       "link": {
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "text-decoration-color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "text-decoration-line": {
           "$type": "textDecoration",
@@ -4755,7 +4773,7 @@
         "active": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           },
           "text-decoration-line": {
             "$type": "textDecoration",
@@ -4803,7 +4821,7 @@
         "hover": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "text-decoration-line": {
             "$type": "textDecoration",
@@ -4822,7 +4840,7 @@
       "link": {
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "column-gap": {
           "$type": "dimension",
@@ -4834,7 +4852,7 @@
         },
         "text-decoration-color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "text-decoration-thickness": {
           "$type": "other",
@@ -4853,7 +4871,7 @@
         "active": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           }
         },
         "focus": {
@@ -4879,7 +4897,7 @@
         "hover": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -4893,7 +4911,7 @@
         "visited": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           }
         }
       }
@@ -4955,11 +4973,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.active.color}"
+            "$value": "{woerden.interaction.active.color}"
           }
         },
         "background-color": {
@@ -4968,11 +4986,11 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.interaction.color}"
+          "$value": "{woerden.interaction.color}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -4989,11 +5007,11 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.hover.color}"
+            "$value": "{woerden.interaction.hover.color}"
           }
         },
         "icon": {
@@ -5094,11 +5112,11 @@
       "mark": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.background-color}"
+          "$value": "{woerden.document.inverse.background-color}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.color}"
+          "$value": "{woerden.document.inverse.color}"
         }
       }
     }
@@ -5173,7 +5191,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "column-gap": {
             "$type": "dimension",
@@ -5490,7 +5508,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "text-decoration": {
@@ -5507,7 +5525,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           }
         },
         "relative-link": {
@@ -5553,7 +5571,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "hover": {
             "background-color": {
@@ -5566,7 +5584,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "disabled": {
@@ -5631,7 +5649,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "active": {
             "background-color": {
@@ -5644,7 +5662,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             },
             "text-decoration": {
               "$type": "textDecoration",
@@ -5676,7 +5694,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             },
             "text-decoration": {
               "$type": "textDecoration",
@@ -5798,7 +5816,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           },
           "text-decoration": {
@@ -5820,7 +5838,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "background-color": {
@@ -5833,7 +5851,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "min-block-size": {
             "$type": "dimension",
@@ -5875,7 +5893,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -6048,7 +6066,7 @@
           "checked": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.color}"
+              "$value": "{woerden.feedback.positive.color}"
             },
             "color": {
               "$type": "color",
@@ -6066,11 +6084,11 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.subtle.color}"
+              "$value": "{woerden.document.subtle.color}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.subtle.color}"
+              "$value": "{woerden.document.subtle.color}"
             }
           },
           "current": {
@@ -6104,7 +6122,7 @@
           "error": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.color}"
+              "$value": "{woerden.feedback.negative.color}"
             },
             "color": {
               "$type": "color",
@@ -6152,13 +6170,13 @@
           "checked": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.border-color}"
+              "$value": "{woerden.feedback.positive.border-color}"
             }
           },
           "not-checked": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.subtle.color}"
+              "$value": "{woerden.document.subtle.color}"
             }
           },
           "warning": {
@@ -6170,7 +6188,7 @@
           "error": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.border-color}"
+              "$value": "{woerden.feedback.negative.border-color}"
             }
           },
           "border-width": {
@@ -6208,7 +6226,7 @@
           "error": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.color}"
+              "$value": "{woerden.feedback.negative.color}"
             }
           },
           "warning": {
@@ -6252,7 +6270,7 @@
               "hover": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.interaction.hover.color}"
+                  "$value": "{woerden.interaction.hover.color}"
                 }
               },
               "focus-visible": {
@@ -6264,7 +6282,7 @@
               "active": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.interaction.active.color}"
+                  "$value": "{woerden.interaction.active.color}"
                 }
               }
             },
@@ -6319,7 +6337,7 @@
             "error": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.feedback.negative.color}"
+                "$value": "{woerden.feedback.negative.color}"
               },
               "active": {
                 "color": {
@@ -6353,7 +6371,7 @@
             "active": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.interaction.active.color}"
+                "$value": "{woerden.interaction.active.color}"
               },
               "background-color": {
                 "$type": "color",
@@ -6367,7 +6385,7 @@
             "hover": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.interaction.hover.color}"
+                "$value": "{woerden.interaction.hover.color}"
               },
               "background-color": {
                 "$type": "color",
@@ -6617,7 +6635,7 @@
         "step-description": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -6627,7 +6645,7 @@
         "step-line": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "stroke-width": {
             "$type": "dimension",
@@ -6636,7 +6654,7 @@
           "checked": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.border-color}"
+              "$value": "{woerden.feedback.positive.border-color}"
             }
           },
           "warning": {
@@ -6682,7 +6700,7 @@
           "checked": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.color}"
+              "$value": "{woerden.feedback.positive.color}"
             }
           },
           "not-checked": {
@@ -6705,7 +6723,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-width": {
             "$type": "dimension",
@@ -6738,13 +6756,13 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.inverse.color}"
+              "$value": "{woerden.document.inverse.color}"
             }
           },
           "checked": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.color}"
+              "$value": "{woerden.feedback.positive.color}"
             },
             "border-color": {
               "$type": "color",
@@ -6756,7 +6774,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.inverse.color}"
+              "$value": "{woerden.document.inverse.color}"
             }
           },
           "warning": {
@@ -6770,14 +6788,14 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.inverse.color}"
+              "$value": "{woerden.document.inverse.color}"
             }
           }
         },
         "step-metaddata": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.subtle.color}"
+            "$value": "{woerden.document.subtle.color}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -6805,7 +6823,7 @@
         "sub-step-marker": {
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "current": {
             "border-color": {
@@ -6816,7 +6834,7 @@
           "checked": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.border-color}"
+              "$value": "{woerden.feedback.positive.border-color}"
             }
           },
           "warning": {
@@ -6828,7 +6846,7 @@
           "not-checked": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.line.border-color}"
+              "$value": "{woerden.line.border-color}"
             }
           }
         }
@@ -6867,11 +6885,11 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.active.background-color}"
+            "$value": "{woerden.form-control.active.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.active.border-color}"
+            "$value": "{woerden.form-control.active.border-color}"
           },
           "color": {
             "$type": "color",
@@ -6903,11 +6921,11 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.background-color}"
+            "$value": "{woerden.form-control.hover.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.border-color}"
+            "$value": "{woerden.form-control.hover.border-color}"
           },
           "color": {
             "$type": "color",
@@ -6953,7 +6971,7 @@
         "checked": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.accent-color}"
+            "$value": "{woerden.form-control.accent-color}"
           },
           "border-color": {
             "$type": "color",
@@ -6970,7 +6988,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.active.accent-color}"
+              "$value": "{woerden.form-control.active.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -7006,7 +7024,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.hover.accent-color}"
+              "$value": "{woerden.form-control.hover.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -7030,7 +7048,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.form-control.disabled.accent-color}"
+              "$value": "{woerden.form-control.disabled.accent-color}"
             },
             "border-color": {
               "$type": "color",
@@ -7179,15 +7197,15 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.background-color}"
+            "$value": "{woerden.form-control.hover.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.border-color}"
+            "$value": "{woerden.form-control.hover.border-color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.color}"
+            "$value": "{woerden.form-control.hover.color}"
           }
         }
       }
@@ -7239,7 +7257,7 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.interaction.color}"
+            "$value": "{woerden.interaction.color}"
           },
           "column-gap": {
             "$type": "dimension",
@@ -7270,13 +7288,13 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.active.color}"
+              "$value": "{woerden.interaction.active.color}"
             }
           },
           "hover": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.interaction.hover.color}"
+              "$value": "{woerden.interaction.hover.color}"
             }
           }
         },
@@ -7320,11 +7338,11 @@
       "skip-link": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.background-color}"
+          "$value": "{woerden.document.inverse.background-color}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.color}"
+          "$value": "{woerden.document.inverse.color}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -7366,11 +7384,11 @@
       "skip-link": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.background-color}"
+          "$value": "{woerden.document.inverse.background-color}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.document.inverse.color}"
+          "$value": "{woerden.document.inverse.color}"
         },
         "min-block-size": {
           "$type": "dimension",
@@ -7473,7 +7491,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.informative.color}"
+            "$value": "{woerden.feedback.informative.color}"
           }
         },
         "positive": {
@@ -7487,13 +7505,13 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.positive.color}"
+            "$value": "{woerden.feedback.positive.color}"
           }
         },
         "negative": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.background-color}"
+            "$value": "{woerden.feedback.negative.background-color}"
           },
           "border-color": {
             "$type": "color",
@@ -7501,7 +7519,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.color}"
+            "$value": "{woerden.feedback.negative.color}"
           }
         },
         "warning": {
@@ -7577,19 +7595,19 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.inverse.color}"
+            "$value": "{woerden.document.inverse.color}"
           },
           "nested": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.document.inverse.color}"
+              "$value": "{woerden.document.inverse.color}"
             }
           }
         },
         "checked": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.positive.color}"
+            "$value": "{woerden.feedback.positive.color}"
           },
           "border-color": {
             "$type": "color",
@@ -7597,7 +7615,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.inverse.color}"
+            "$value": "{woerden.document.inverse.color}"
           }
         },
         "default": {
@@ -7607,7 +7625,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "color": {
             "$type": "color",
@@ -7637,7 +7655,7 @@
         "error": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.negative.color}"
+            "$value": "{woerden.feedback.negative.color}"
           },
           "border-color": {
             "$type": "color",
@@ -7645,7 +7663,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.inverse.color}"
+            "$value": "{woerden.document.inverse.color}"
           }
         },
         "not-checked": {
@@ -7655,7 +7673,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "color": {
             "$type": "color",
@@ -7673,7 +7691,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.document.inverse.color}"
+            "$value": "{woerden.document.inverse.color}"
           },
           "nested": {
             "background-color": {
@@ -7706,25 +7724,25 @@
           "checked": {
             "outline-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.positive.border-color}"
+              "$value": "{woerden.feedback.positive.border-color}"
             }
           },
           "default": {
             "outline-color": {
               "$type": "color",
-              "$value": "{voorbeeld.line.border-color}"
+              "$value": "{woerden.line.border-color}"
             }
           },
           "error": {
             "outline-color": {
               "$type": "color",
-              "$value": "{voorbeeld.feedback.negative.border-color}"
+              "$value": "{woerden.feedback.negative.border-color}"
             }
           },
           "not-checked": {
             "outline-color": {
               "$type": "color",
-              "$value": "{voorbeeld.line.border-color}"
+              "$value": "{woerden.line.border-color}"
             }
           },
           "warning": {
@@ -7971,7 +7989,7 @@
           },
           "border-block-end-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-block-end-width": {
             "$type": "dimension",
@@ -7991,7 +8009,7 @@
         "row": {
           "border-block-end-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-block-end-width": {
             "$type": "dimension",
@@ -8015,7 +8033,7 @@
         "footer": {
           "border-block-start-color": {
             "$type": "color",
-            "$value": "{voorbeeld.line.border-color}"
+            "$value": "{woerden.line.border-color}"
           },
           "border-block-start-width": {
             "$type": "dimension",
@@ -8073,7 +8091,7 @@
         "icon": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.feedback.positive.color}"
+            "$value": "{woerden.feedback.positive.color}"
           },
           "size": {
             "$type": "dimension",
@@ -8227,15 +8245,15 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.background-color}"
+            "$value": "{woerden.form-control.hover.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.border-color}"
+            "$value": "{woerden.form-control.hover.border-color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.color}"
+            "$value": "{woerden.form-control.hover.color}"
           }
         }
       }
@@ -8385,15 +8403,15 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.background-color}"
+            "$value": "{woerden.form-control.hover.background-color}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.border-color}"
+            "$value": "{woerden.form-control.hover.border-color}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.form-control.hover.color}"
+            "$value": "{woerden.form-control.hover.color}"
           }
         }
       }
