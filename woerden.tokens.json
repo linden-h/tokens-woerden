@@ -395,7 +395,7 @@
           },
           "800": {
             "$type": "color",
-            "$value": "#006640"
+            "$value": "#005737"
           },
           "900": {
             "$type": "color",
@@ -1237,7 +1237,7 @@
         "active": {
           "color": {
             "$type": "color",
-            "$value": "{woerden.color.purple.900}"
+            "$value": "{woerden.color.green.800}"
           }
         },
         "hover": {
@@ -2340,7 +2340,7 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "{woerden.border-radius.md}"
+          "$value": "{woerden.border-radius.sm}"
         },
         "border-width": {
           "$type": "dimension",
